@@ -8,3 +8,4 @@ console.log(document.getElementsByClassName('tartine')[0].textContent);
 // ### 2. Pareil que le précédent mais cette fois si c'est via l'id "toast"
 console.log(document.getElementById('toast').textContent);
 // ### 3. Affiche le dernier élément ayant la class tartine ( pas son contenu, l'élément entier)
+console.log(document.getElementsByClassName('tartine')[document.getElementsByClassName('tartine').length - 1]);
